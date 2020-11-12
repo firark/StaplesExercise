@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" thread-count="1" parallel="none" name="../Staples/">
+        <classes>
+            <class name="google.NonexistentWordSearch"></class>
+            <class name="google.StaplesSearch"></class>
+            <class name="google.FeelingLucky"></class>
+        </classes>
+    </test>
+</suite>
